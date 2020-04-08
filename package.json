@@ -4,7 +4,9 @@
   "description": "business sample website for peregrine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx slingpackager package content -d out",
+    "install": "npx slingpackager upload -i out/business_sample-full-packag-1.0.zip",
+    "deploy": "npm run build && npm run install"
   },
   "author": "headwire.com, Inc",
   "license": "Apache-2.0",
