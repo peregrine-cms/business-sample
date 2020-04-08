@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="code themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | code">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="code"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="code themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container6
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <intro1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                htmlelement="banner"
+                text="&lt;h1 id=&quot;code&quot;>Code&lt;/h1> &lt;p>This component renders the text as &lt;code>&amp;lt;pre&amp;gt;&amp;lt;code class=&amp;quot;language-{{language}} {{classes}}&amp;quot;&amp;gt;{{text}}&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&lt;/code>&lt;/p> &lt;p>If the base template includes prism.js it will be used to generate the markup of the code. &lt;/p> &lt;h2 id=&quot;configuring-prism&quot;>Configuring Prism&lt;/h2> &lt;p>&lt;em>Please note: Using Prism will impact your site&amp;#39;s accessibility and mobile performance score. This is not an issue with Peregrine, rather a consequence of using Prism.&lt;/em>&lt;/p> &lt;p>If you wish to use &lt;a href=&quot;Prism&quot;>https://prismjs.com/&lt;/a> with the code component, perform the following steps:&lt;/p> &lt;ol> &lt;li>&lt;p>Visit the Prism &lt;a href=&quot;https://prismjs.com/download.html&quot;>download page&lt;/a> and download &lt;code>prism.js&lt;/code> and &lt;code>prism.css&lt;/code> with the options that you need.&lt;/p> &lt;/li> &lt;li>&lt;p>Upload &lt;code>prism.js&lt;/code> and &lt;code>prism.css&lt;/code> to &lt;code>Assets&lt;/code>. It is recommended that you create folders for &lt;code>/content/_tenant_/assets/css/&lt;/code> and &lt;code>/content/_tenant_/assets/js/&lt;/code> first, then upload &lt;code>prism.js&lt;/code> and &lt;code>prism.css&lt;/code> to their respective folders.&lt;/p> &lt;/li> &lt;li>&lt;p>Click on the &lt;code>Template&lt;/code> tile from the home screen, then click on the page icon for your tenant.  &lt;/p> &lt;/li> &lt;li>&lt;p>Click &lt;code>page start&lt;/code>.&lt;/p> &lt;/li> &lt;li>&lt;p>(optional) If you enabled the &lt;code>Copy to Clipboard button&lt;/code> when you downloaded Prism, add &lt;code>https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js&lt;/code> to &lt;code>Site JS Files&lt;/code>.&lt;/p> &lt;/li> &lt;li>&lt;p>Add &lt;code>/content/_tenant_/assets/js/prism.js&lt;/code> to &lt;code>Site JS Files&lt;/code>.&lt;/p> &lt;/li> &lt;li>&lt;p>Add &lt;code>/content/_tenant_/assets/css/prism.css&lt;/code> to &lt;code>Site CSS Files&lt;/code>.&lt;/p> &lt;/li> &lt;li>&lt;p>Navigate to your site, edit a page and place a &lt;em>Code&lt;/em> component on the page. Enter your language without the &lt;code>language-&lt;/code> prefix (e.g., ruby, script, java, etc). You can add additional classes to the &lt;code>classes&lt;/code> property. For example, adding &lt;code>line-numbers&lt;/code> will enable line numbers if you included the line number plugin when you downloaded Prism.&lt;/p> &lt;/li> &lt;/ol> &lt;h2 id=&quot;pending-features--issues&quot;>Pending Features &amp;amp; Issues&lt;/h2> &lt;ul> &lt;li>Add support for defining Prism data attributes&lt;/li> &lt;li>Update the code component to be less plugin dependent&lt;/li> &lt;/ul> "
+                toppadding="25"/>
+            <title2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Code (Text Components)&lt;/h2>"
+                toppadding="25"/>
+            <code3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/code"
+                language=""
+                text=""/>
+            <title4
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Code - Example (Text Components)&lt;/h2>"
+                toppadding="25"/>
+            <code5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/code"
+                language="javascript"
+                text="var a = {};"/>
+        </container6>
+        <pager7
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+    <sample/>
+    <sample-blank/>
+</jcr:root>

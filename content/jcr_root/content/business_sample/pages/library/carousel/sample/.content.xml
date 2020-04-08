@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="carouselsample themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | carouselsample">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="carouselsample"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="carouselsample themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container146
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c2
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c3
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c4
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel5>
+            <title6
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel10
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c7
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c8
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c9
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel10>
+            <title11
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel15
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c12
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c13
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel15>
+            <title16
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel20
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c17
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c18
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c19
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel20>
+            <title21
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c22
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c23
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c24
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel25>
+            <title26
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel30
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c27
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c28
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c29
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel30>
+            <title31
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel35
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c32
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c33
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c34
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel35>
+            <title36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel40
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c37
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c38
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c39
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel40>
+            <title41
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel45
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c42
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c43
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c44
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel45>
+            <title46
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel50
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c47
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c48
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c49
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel50>
+            <title51
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel55
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c52
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c53
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c54
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel55>
+            <title56
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel60
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c57
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c58
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c59
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel60>
+            <title61
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel65
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c62
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c63
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c64
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel65>
+            <title66
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel70
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c67
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c68
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c69
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel70>
+            <title71
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel75
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c72
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c73
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c74
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel75>
+            <title76
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel80
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c77
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c78
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c79
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel80>
+            <title81
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel85
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c82
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c83
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c84
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel85>
+            <title86
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel90
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c87
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c88
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c89
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel90>
+            <title91
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel95
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c92
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c93
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c94
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel95>
+            <title96
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel100
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c97
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c98
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c99
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel100>
+            <title101
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel105
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c102
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c103
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c104
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel105>
+            <title106
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel110
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c107
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c108
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c109
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel110>
+            <title111
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel115
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c112
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c113
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c114
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel115>
+            <title116
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel120
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c117
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c118
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c119
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel120>
+            <title121
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel125
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c122
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c123
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c124
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel125>
+            <title126
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel130
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c127
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c128
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c129
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel130>
+            <title131
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel135
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c132
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c133
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c134
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel135>
+            <title136
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel140
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c137
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c138
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c139
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel140>
+            <title141
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Example Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel145
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="full"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c142
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats in front of city skyline and sunset"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/architecture-blue-skies_large.jpg"
+                        text="&lt;h2>Slide One Title&lt;/h2>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.&lt;/p>"/>
+                    <c143
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboat sailing on a lake"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/sailing-lake_large.jpg"
+                        text="&lt;h2>Slide Two Title&lt;/h2>&lt;p>Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                    <c144
+                        jcr:primaryType="nt:unstructured"
+                        alt="Sailboats sailing on an ocean"
+                        imagefit="cover"
+                        imagepath="/content/business_sample/assets/samples/beach-boats-ocean_large.jpg"
+                        text="&lt;h2>Slide Three Title&lt;/h2>&lt;p>Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis.&lt;/p>"/>
+                </slides>
+            </carousel145>
+        </container146>
+        <pager147
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>

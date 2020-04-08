@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-04-07T17:10:32.091-07:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-04-07T17:10:32.091-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="header footer"
+        sling:resourceType="business_sample/components/page">
+        <n900e7251-5f6c-4714-8931-8a431fbd76f8
+            jcr:lastModified="{Date}2020-04-07T17:04:26.472-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#ffffff"
+            bgsize="cover"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bgxposition="50"
+            bgyposition="50"
+            blockwidth="default"
+            bottompadding="17"
+            buttonsize="default"
+            collapsed="false"
+            color2="#c0c0c0"
+            colorscheme=""
+            custombackground="true"
+            elevation="2"
+            fullheight="false"
+            htmlelement="section"
+            linkcolor="text-blue-800"
+            logo="/content/business_sample/assets/samples/sample-logo.png"
+            logoalttext="PathSoft"
+            logosize="50"
+            logourl="/content/business_sample/pages/index"
+            overlaycolor="#ffffff"
+            overlayopacity="50"
+            sticky="true"
+            toppadding="9"/>
+        <nfa7bf881-c8db-40fc-a6fe-d37ad4a44895
+            jcr:lastModified="{Date}2020-04-07T17:10:32.091-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            bgcolor="#ffffff"
+            bgsize="cover"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bgxposition="50"
+            bgyposition="50"
+            blockwidth="default"
+            bottompadding="19"
+            color2="#c0c0c0"
+            colorscheme="light"
+            custombackground="false"
+            fullheight="false"
+            htmlelement="section"
+            level="3"
+            linkcolor="primary"
+            overlaycolor="#ffffff"
+            overlayopacity="50"
+            toppadding="20"/>
+        <n544fa3ba-015e-4950-91c0-b62a4b2be182
+            jcr:lastModified="{Date}2020-04-07T16:11:58.192-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"/>
+        <n0838de5f-13a0-459f-9933-de99c426ab98
+            jcr:lastModified="{Date}2020-04-07T16:29:49.721-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            bgcolor="#ffffff"
+            bgsize="cover"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bgxposition="50"
+            bgyposition="50"
+            blockwidth="default"
+            color2="#c0c0c0"
+            colorscheme="dark"
+            copyright="&amp;copy; 2020. my company, All rights reserved."
+            custombackground="false"
+            fullheight="false"
+            htmlelement="section"
+            iconcolor="#000000"
+            iconsize="25"
+            logo="/content/business_sample/assets/samples/sample-logo.png"
+            logoalttext="my company"
+            logosize="54"
+            logourl="/content/business_sample/pages/index"
+            overlaycolor="#ffffff"
+            overlayopacity="50"
+            showlogo="true"
+            toppadding="18">
+            <coluimns jcr:primaryType="nt:unstructured"/>
+            <columns jcr:primaryType="nt:unstructured">
+                <n1586302000762
+                    jcr:lastModified="{Date}2020-04-07T16:29:49.719-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    name="n1586302000762"
+                    path="/jcr:content/n0838de5f-13a0-459f-9933-de99c426ab98/columns/n1586302000762"
+                    text="&lt;p>Our company has been developing high-quality and reliable software for corporate needs since 2008. We are renowned professionals of software development.&lt;/p>"
+                    title="my company"/>
+                <n1586302109354
+                    jcr:lastModified="{Date}2020-04-07T16:29:49.720-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title="Menu"/>
+                <n1586302117074
+                    jcr:lastModified="{Date}2020-04-07T16:29:49.720-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title="What We Offer"/>
+                <n1586302126963
+                    jcr:lastModified="{Date}2020-04-07T16:29:49.720-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;ul>&lt;li>23293 South Pointe, Lake Forest, CA, 92653&lt;/li>&lt;li>+1 949 595 4365&lt;/li>&lt;li>info@example.com&lt;/li>&lt;/ul>"
+                    title="Contact Info"/>
+            </columns>
+        </n0838de5f-13a0-459f-9933-de99c426ab98>
+    </jcr:content>
+    <article/>
+</jcr:root>

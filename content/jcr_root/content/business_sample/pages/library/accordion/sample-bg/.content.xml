@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="accordionsample-bg themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | accordionsample-bg">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="accordionsample-bg"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="accordionsample-bg themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container146
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c2
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c3
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c4
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion5>
+            <title6
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion10
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c7
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c8
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c9
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion10>
+            <title11
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion15
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c12
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c13
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion15>
+            <title16
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion20
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c17
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c18
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c19
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion20>
+            <title21
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c22
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c23
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c24
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion25>
+            <title26
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion30
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c27
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c28
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c29
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion30>
+            <title31
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion35
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c32
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c33
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c34
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion35>
+            <title36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion40
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c37
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c38
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c39
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion40>
+            <title41
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion45
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c42
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c43
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c44
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion45>
+            <title46
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion50
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c47
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c48
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c49
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion50>
+            <title51
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion55
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c52
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c53
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c54
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion55>
+            <title56
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion60
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c57
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c58
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c59
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion60>
+            <title61
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion65
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c62
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c63
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c64
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion65>
+            <title66
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion70
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c67
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c68
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c69
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion70>
+            <title71
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion75
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c72
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c73
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c74
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion75>
+            <title76
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion80
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c77
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c78
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c79
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion80>
+            <title81
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion85
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c82
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c83
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c84
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion85>
+            <title86
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion90
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c87
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c88
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c89
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion90>
+            <title91
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion95
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c92
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c93
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c94
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion95>
+            <title96
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion100
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c97
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c98
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c99
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion100>
+            <title101
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion105
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c102
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c103
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c104
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion105>
+            <title106
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion110
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c107
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c108
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c109
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion110>
+            <title111
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion115
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c112
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c113
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c114
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion115>
+            <title116
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion120
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c117
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c118
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c119
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion120>
+            <title121
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion125
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c122
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c123
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c124
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion125>
+            <title126
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion130
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c127
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c128
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c129
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion130>
+            <title131
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion135
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c132
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c133
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c134
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion135>
+            <title136
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion140
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c137
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c138
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c139
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion140>
+            <title141
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Accordion - Background Image Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <accordion145
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/accordion"
+                accordionortoggle="false"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                bottompadding="150"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                mediawidth="33"
+                overlay="true"
+                overlaycolor="#000000"
+                overlayopacity="25"
+                showmedia="false"
+                showtitle="true"
+                title="Peregrine Accordion"
+                toppadding="150">
+                <accordiontoggle jcr:primaryType="nt:unstructured">
+                    <c142
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/p>"
+                        title="Why accordion?"/>
+                    <c143
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting&lt;/p>"
+                        title="How to accordion?"/>
+                    <c144
+                        jcr:primaryType="nt:unstructured"
+                        text="&lt;p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>"
+                        title="Join accordion"/>
+                </accordiontoggle>
+            </accordion145>
+        </container146>
+        <pager147
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>

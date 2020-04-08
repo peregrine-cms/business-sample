@@ -1,0 +1,2207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="cardssample-cardsnobackground themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | cardssample-cardsnobackground">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="cardssample-cardsnobackground"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="cardssample-cardsnobackground themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container175
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards6
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c2
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c3
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c4
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c5
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards6>
+            <title7
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards12
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c8
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c9
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c10
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c11
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards12>
+            <title13
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards18
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c15
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c16
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c17
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards18>
+            <title19
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards24
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c20
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c21
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c22
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c23
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards24>
+            <title25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards30
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c26
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c27
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c28
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c29
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards30>
+            <title31
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c32
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c33
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c34
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c35
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards36>
+            <title37
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards42
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c38
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c39
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c40
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c41
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards42>
+            <title43
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards48
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c44
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c45
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c46
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c47
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards48>
+            <title49
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards54
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c50
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c51
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c52
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c53
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards54>
+            <title55
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards60
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c56
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c57
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c58
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c59
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards60>
+            <title61
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards66
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c62
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c63
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c64
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c65
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards66>
+            <title67
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards72
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="image"
+                bgcolor="#ffffff"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c68
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c69
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c70
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c71
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards72>
+            <title73
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards78
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="image"
+                bgcolor="#ffffff"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c74
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c75
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c76
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c77
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards78>
+            <title79
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards84
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="image"
+                bgcolor="#ffffff"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c80
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c81
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c82
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c83
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards84>
+            <title85
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards90
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="image"
+                bgcolor="#ffffff"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c86
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c87
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c88
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c89
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards90>
+            <title91
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards96
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="image"
+                bgcolor="#ffffff"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c92
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c93
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c94
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c95
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards96>
+            <title97
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards102
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="image"
+                bgcolor="#ffffff"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c98
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c99
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c100
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c101
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards102>
+            <title103
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards108
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                bgcolor="#ffffff"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c104
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c105
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c106
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c107
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards108>
+            <title109
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards114
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                bgcolor="#ffffff"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c110
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c111
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c112
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c113
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards114>
+            <title115
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards120
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                bgcolor="#ffffff"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c116
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c117
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c118
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c119
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards120>
+            <title121
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards126
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                bgcolor="#ffffff"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c122
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c123
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c124
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c125
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards126>
+            <title127
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards132
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                bgcolor="#ffffff"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c128
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c129
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c130
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c131
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards132>
+            <title133
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards138
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                bgcolor="#ffffff"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c134
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c135
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c136
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c137
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards138>
+            <title139
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards144
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="video"
+                bgcolor="#ffffff"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c140
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c141
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c142
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c143
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards144>
+            <title145
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards150
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="video"
+                bgcolor="#ffffff"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c146
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c147
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c148
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c149
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards150>
+            <title151
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards156
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="video"
+                bgcolor="#ffffff"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c152
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c153
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c154
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c155
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards156>
+            <title157
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards162
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="video"
+                bgcolor="#ffffff"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c158
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c159
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c160
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c161
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards162>
+            <title163
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards168
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="video"
+                bgcolor="#ffffff"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c164
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c165
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c166
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c167
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards168>
+            <title169
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Cards - No Background Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <cards174
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/cards"
+                backgroundtype="video"
+                bgcolor="#ffffff"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="20"
+                cardcolor="#ffffff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                showbutton="true"
+                showcard="false"
+                showtext="true"
+                showtitle="true"
+                toppadding="20">
+                <cards jcr:primaryType="nt:unstructured">
+                    <c170
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/organized-small.jpg"
+                        imagealttext="Organized rope hanging on a winch"
+                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor."
+                        title="Card One"/>
+                    <c171
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/boat-rope-hanging-knot_small.jpg"
+                        imagealttext="Several sets of rope"
+                        text="Maecenas fermentum neque feugiat purus condimentum, sed molestie dolor fermentum. Nullam vestibulum tellus dolor. Cras viverra vel diam quis iaculis."
+                        title="Card Two"/>
+                    <c172
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/close-up-cordage.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="Fusce sagittis, est eget commodo imperdiet, lectus quam bibendum ex, eu commodo mi diam molestie tortor.Cras viverra vel diam quis iaculis."
+                        title="Card Three"/>
+                    <c173
+                        jcr:primaryType="nt:unstructured"
+                        buttonalign="right"
+                        buttoncolor="info"
+                        buttonlink="/content/business_sample/pages"
+                        buttonsize="default"
+                        buttontext="View"
+                        image="/content/business_sample/assets/samples/chain-close-up-daylight-1170601.jpg"
+                        imagealttext="Messy pile of rope"
+                        text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint ."
+                        title="Card Four"/>
+                </cards>
+            </cards174>
+        </container175>
+        <pager176
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>

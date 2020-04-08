@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="textlinkssample themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | textlinkssample">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="textlinkssample"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="textlinkssample themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container146
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c2
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c3
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c4
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks5>
+            <title6
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks10
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c7
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c8
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c9
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks10>
+            <title11
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks15
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c12
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c13
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks15>
+            <title16
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks20
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c17
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c18
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c19
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks20>
+            <title21
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c22
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c23
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c24
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks25>
+            <title26
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks30
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c27
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c28
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c29
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks30>
+            <title31
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks35
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c32
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c33
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c34
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks35>
+            <title36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks40
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c37
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c38
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c39
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks40>
+            <title41
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks45
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c42
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c43
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c44
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks45>
+            <title46
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks50
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c47
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c48
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c49
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks50>
+            <title51
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks55
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c52
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c53
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c54
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks55>
+            <title56
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks60
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c57
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c58
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c59
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks60>
+            <title61
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks65
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c62
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c63
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c64
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks65>
+            <title66
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks70
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c67
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c68
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c69
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks70>
+            <title71
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks75
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c72
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c73
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c74
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks75>
+            <title76
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks80
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c77
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c78
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c79
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks80>
+            <title81
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks85
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c82
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c83
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c84
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks85>
+            <title86
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks90
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c87
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c88
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c89
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks90>
+            <title91
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks95
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c92
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c93
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c94
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks95>
+            <title96
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks100
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c97
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c98
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c99
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks100>
+            <title101
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks105
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c102
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c103
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c104
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks105>
+            <title106
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks110
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c107
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c108
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c109
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks110>
+            <title111
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks115
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c112
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c113
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c114
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks115>
+            <title116
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks120
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c117
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c118
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c119
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks120>
+            <title121
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks125
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c122
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c123
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c124
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks125>
+            <title126
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks130
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c127
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c128
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c129
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks130>
+            <title131
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks135
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c132
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c133
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c134
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks135>
+            <title136
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks140
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <links jcr:primaryType="nt:unstructured">
+                    <c137
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c138
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c139
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks140>
+            <title141
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Text Links Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <textlinks145
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/textlinks"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <links jcr:primaryType="nt:unstructured">
+                    <c142
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Services"/>
+                    <c143
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="About Us"/>
+                    <c144
+                        jcr:primaryType="nt:unstructured"
+                        color="dark"
+                        link="/content/business_sample/pages"
+                        text="Contact Us"/>
+                </links>
+            </textlinks145>
+        </container146>
+        <pager147
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>

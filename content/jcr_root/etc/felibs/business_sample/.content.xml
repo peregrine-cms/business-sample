@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="themecleanflex"
+    jcr:primaryType="per:FeLib"
+    jcr:title="themecleanflex"
+    sling:resourceType="felib/components/lib"
+    dependencies="[/etc/felibs/themecleanflex]"/>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="themecleanflex Templates Root"
+    jcr:primaryType="per:Page"
+    jcr:title="business_sample root template">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="templates"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        prefetchDNS="[https://www.youtube.com,https://s.ytimg.com,https://www.google.com,https://fonts.gstatic.com,https://www.youtube-nocookie.com]"
+        siteCSS="[/content/business_sample/pages/css/palettes/default.css,/content/business_sample/pages/css/palette.css,/content/business_sample/pages/css/commons.css,/etc/felibs/themecleanflex.css,/content/business_sample/pages/css/custom.css,https://fonts.googleapis.com/css?family=Montserrat:300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C900%2C900i&amp;amp;display=swap]"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true"/>
+    <home/>
+    <header-footer/>
+</jcr:root>

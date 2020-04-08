@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="teaserverticalsample-teaserfull themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | teaserverticalsample-teaserfull">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="teaserverticalsample-teaserfull"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="teaserverticalsample-teaserfull themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container117
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical4
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c2
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c3
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical4>
+            <title5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical8
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c6
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c7
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical8>
+            <title9
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical12
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c10
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c11
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical12>
+            <title13
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical16
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c15
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical16>
+            <title17
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical20
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c18
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c19
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical20>
+            <title21
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical24
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c22
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c23
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical24>
+            <title25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical28
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c26
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c27
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical28>
+            <title29
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical32
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c30
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c31
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical32>
+            <title33
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c34
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c35
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical36>
+            <title37
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical40
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c38
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c39
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical40>
+            <title41
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical44
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c42
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c43
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical44>
+            <title45
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical48
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c46
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c47
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical48>
+            <title49
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical52
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c50
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c51
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical52>
+            <title53
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical56
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c54
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c55
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical56>
+            <title57
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical60
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c58
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c59
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical60>
+            <title61
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical64
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c62
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c63
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical64>
+            <title65
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical68
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c66
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c67
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical68>
+            <title69
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical72
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c70
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c71
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical72>
+            <title73
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical76
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c74
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c75
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical76>
+            <title77
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical80
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c78
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c79
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical80>
+            <title81
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical84
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c82
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c83
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical84>
+            <title85
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical88
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c86
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c87
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical88>
+            <title89
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical92
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c90
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c91
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical92>
+            <title93
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical96
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c94
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c95
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical96>
+            <title97
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical100
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c98
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c99
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical100>
+            <title101
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical104
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c102
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c103
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical104>
+            <title105
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical108
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c106
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c107
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical108>
+            <title109
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical112
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c110
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c111
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical112>
+            <title113
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical116
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="video"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                bottompadding="30"
+                buttonsize="large"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c114
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c115
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical116>
+        </container117>
+        <pager118
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>

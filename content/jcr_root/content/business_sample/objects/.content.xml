@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="themecleanflex Objects Root"
+    jcr:primaryType="per:Page"
+    jcr:title="business_sample root object">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="objects"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true"/>
+    <tags/>
+</jcr:root>

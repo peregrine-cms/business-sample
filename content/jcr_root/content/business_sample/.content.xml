@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:primaryType="per:Site"
+    jcr:title="business_sample"
+    internal="{Boolean}false"
+    sourceSite="themecleanflex"
+    template="{Boolean}false">
+    <assets/>
+    <objects/>
+    <templates/>
+    <pages/>
+</jcr:root>

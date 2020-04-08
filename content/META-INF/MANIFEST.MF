@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /apps/business_sample,/etc/felibs/business_samp
+ le,/content/business_sample
+Content-Package-Type: mixed
+Content-Package-Id: business_sample:business_sample-full-package:1.0
+

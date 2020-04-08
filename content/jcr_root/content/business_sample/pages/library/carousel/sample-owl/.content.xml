@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="carouselsample-owl themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | carouselsample-owl">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="carouselsample-owl"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="carouselsample-owl themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container175
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel6
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c2
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c3
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c4
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c5
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel6>
+            <title7
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel12
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c8
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c9
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c10
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c11
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel12>
+            <title13
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel18
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c15
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c16
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c17
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel18>
+            <title19
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel24
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c20
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c21
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c22
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c23
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel24>
+            <title25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel30
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c26
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c27
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c28
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c29
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel30>
+            <title31
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c32
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c33
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c34
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c35
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel36>
+            <title37
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel42
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c38
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c39
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c40
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c41
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel42>
+            <title43
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel48
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c44
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c45
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c46
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c47
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel48>
+            <title49
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel54
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c50
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c51
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c52
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c53
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel54>
+            <title55
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel60
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c56
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c57
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c58
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c59
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel60>
+            <title61
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel66
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c62
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c63
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c64
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c65
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel66>
+            <title67
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel72
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c68
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c69
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c70
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c71
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel72>
+            <title73
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel78
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c74
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c75
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c76
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c77
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel78>
+            <title79
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel84
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c80
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c81
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c82
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c83
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel84>
+            <title85
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel90
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c86
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c87
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c88
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c89
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel90>
+            <title91
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel96
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c92
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c93
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c94
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c95
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel96>
+            <title97
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel102
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c98
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c99
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c100
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c101
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel102>
+            <title103
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel108
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c104
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c105
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c106
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c107
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel108>
+            <title109
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel114
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c110
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c111
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c112
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c113
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel114>
+            <title115
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel120
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c116
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c117
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c118
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c119
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel120>
+            <title121
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel126
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c122
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c123
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c124
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c125
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel126>
+            <title127
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel132
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c128
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c129
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c130
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c131
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel132>
+            <title133
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel138
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c134
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c135
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c136
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c137
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel138>
+            <title139
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel144
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c140
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c141
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c142
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c143
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel144>
+            <title145
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel150
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c146
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c147
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c148
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c149
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel150>
+            <title151
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel156
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c152
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c153
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c154
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c155
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel156>
+            <title157
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel162
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c158
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c159
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c160
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c161
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel162>
+            <title163
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel168
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c164
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c165
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c166
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c167
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel168>
+            <title169
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Carousel - Owl Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <carousel174
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/carousel"
+                autoplay="true"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                blockwidth="article"
+                captionbg="true"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true"
+                indicators="false"
+                wrap="true">
+                <carouselheight jcr:primaryType="nt:unstructured"/>
+                <toppadding jcr:primaryType="nt:unstructured"/>
+                <itemsperpage jcr:primaryType="nt:unstructured"/>
+                <bottompadding jcr:primaryType="nt:unstructured"/>
+                <slides jcr:primaryType="nt:unstructured">
+                    <c170
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/google.svg"/>
+                    <c171
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/facebook.svg"/>
+                    <c172
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/linkedin.svg"/>
+                    <c173
+                        jcr:primaryType="nt:unstructured"
+                        imagepath="/content/business_sample/assets/icons/pinterest.svg"/>
+                </slides>
+            </carousel174>
+        </container175>
+        <pager176
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>

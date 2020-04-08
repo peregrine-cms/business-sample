@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="teaservertical themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | teaservertical">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="teaservertical"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="teaservertical themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container22
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <intro1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                htmlelement="banner"
+                text="&lt;h1 id=&quot;teaser-vertical&quot;>Teaser Vertical&lt;/h1> &lt;p>The Vertical Teaser component can be used to display a small amount of content with relevant links.&lt;/p> "
+                toppadding="25"/>
+            <title2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical (Features)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"/>
+            <title4
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Media (Features)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical7
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ffffff"
+                bottompadding="30"
+                buttonsize="default"
+                color2="#c0c0c0"
+                fullheight="false"
+                gradient="true"
+                imagesrc="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                mediaposition="after"
+                mediatitle="Bird's eye view of the beach"
+                mediatype="image"
+                mediawidth="50"
+                showbutton="true"
+                showmedia="true"
+                showsubtitle="true"
+                showtext="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Peregrine blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c5
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c6
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical7>
+            <title8
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical With All RTE Styles (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical11
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ffffff"
+                bottompadding="30"
+                buttonsize="default"
+                color2="#c0c0c0"
+                fullheight="false"
+                gradient="true"
+                showbutton="true"
+                showsubtitle="true"
+                showtext="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;h1>Left (Default) Alignment Test&lt;/h1>&lt;h2>Header h2&lt;/h2>&lt;h3>Header h3&lt;/h3>&lt;h4>Header h4&lt;/h4>&lt;p>Text:&lt;/p>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare felis at ligula suscipit, eu condimentum tortor venenatis. Maecenas laoreet blandit tempor. Praesent fermentum malesuada ante eget condimentum. Nulla feugiat, tortor vel consectetur mollis, neque mauris lacinia nisi, id tristique sapien eros sed neque. Integer nec nunc nec elit condimentum faucibus a sit amet dolor. Aliquam nec metus urna. Donec id urna lacus. Nam luctus efficitur leo, at lobortis eros. Phasellus ut tincidunt orci, vitae lacinia lacus.&lt;/p>&lt;p>unordered list:&lt;/p>&lt;ul>&lt;li>item 1&lt;/li>&lt;li>item 2&lt;/li>&lt;li>item 3&lt;/li>&lt;/ul>&lt;p>ordered list&lt;/p>&lt;ol>&lt;li>item 1&lt;/li>&lt;li>item 2&lt;/li>&lt;li>item 3&lt;/li>&lt;/ol>&lt;p>sub&lt;sub>script&lt;/sub> super&lt;sup>script&lt;/sup>&lt;/p>&lt;p>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em>&lt;/p>&lt;p>&lt;a href=&quot;https://www.example.com&quot; title=&quot;example.com&quot;>some link text&lt;/a>&lt;/p>&lt;p>a line followed by a shift return (&amp;lt;br/&amp;gt;) &lt;br>a line followed by a return (end of paragraph)&lt;/p>&lt;p>another line&lt;/p>&lt;h1 style=&quot;text-align: center; &quot;>Center Alignment Test&lt;/h1>&lt;h2 style=&quot;text-align: center; &quot;>Header h2&lt;/h2>&lt;h3 style=&quot;text-align: center; &quot;>Header h3&lt;/h3>&lt;h4 style=&quot;text-align: center; &quot;>Header h4&lt;/h4>&lt;p style=&quot;text-align: center; &quot;>Text:&lt;/p>&lt;p style=&quot;text-align: center; &quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare felis at ligula suscipit, eu condimentum tortor venenatis. Maecenas laoreet blandit tempor. Praesent fermentum malesuada ante eget condimentum. Nulla feugiat, tortor vel consectetur mollis, neque mauris lacinia nisi, id tristique sapien eros sed neque. Integer nec nunc nec elit condimentum faucibus a sit amet dolor. Aliquam nec metus urna. Donec id urna lacus. Nam luctus efficitur leo, at lobortis eros. Phasellus ut tincidunt orci, vitae lacinia lacus.&lt;/p>&lt;p style=&quot;text-align: center; &quot;>unordered list:&lt;/p>&lt;ul>&lt;li style=&quot;text-align: center; &quot;>item 1&lt;/li>&lt;li style=&quot;text-align: center; &quot;>item 2&lt;/li>&lt;li style=&quot;text-align: center; &quot;>item 3&lt;/li>&lt;/ul>&lt;p style=&quot;text-align: center; &quot;>ordered list&lt;/p>&lt;ol>&lt;li style=&quot;text-align: center; &quot;>item 1&lt;/li>&lt;li style=&quot;text-align: center; &quot;>item 2&lt;/li>&lt;li style=&quot;text-align: center; &quot;>item 3&lt;/li>&lt;/ol>&lt;p style=&quot;text-align: center; &quot;>sub&lt;sub>script&lt;/sub> super&lt;sup>script&lt;/sup>&lt;/p>&lt;p style=&quot;text-align: center; &quot;>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em>&lt;/p>&lt;p style=&quot;text-align: center; &quot;>&lt;a href=&quot;https://www.example.com&quot; title=&quot;example.com&quot;>some link text&lt;/a>&lt;/p>&lt;p style=&quot;text-align: center; &quot;>a line followed by a shift return (&amp;lt;br/&amp;gt;) &lt;br>a line followed by a return (end of paragraph)&lt;/p>&lt;p style=&quot;text-align: center; &quot;>another line&lt;/p>&lt;h1 style=&quot;text-align: right; &quot;>Right Alignment Test&lt;/h1>&lt;h2 style=&quot;text-align: right; &quot;>Header h2&lt;/h2>&lt;h3 style=&quot;text-align: right; &quot;>Header h3&lt;/h3>&lt;h4 style=&quot;text-align: right; &quot;>Header h4&lt;/h4>&lt;p style=&quot;text-align: right; &quot;>Text:&lt;/p>&lt;p style=&quot;text-align: right; &quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare felis at ligula suscipit, eu condimentum tortor venenatis. Maecenas laoreet blandit tempor. Praesent fermentum malesuada ante eget condimentum. Nulla feugiat, tortor vel consectetur mollis, neque mauris lacinia nisi, id tristique sapien eros sed neque. Integer nec nunc nec elit condimentum faucibus a sit amet dolor. Aliquam nec metus urna. Donec id urna lacus. Nam luctus efficitur leo, at lobortis eros. Phasellus ut tincidunt orci, vitae lacinia lacus.&lt;/p>&lt;p style=&quot;text-align: right; &quot;>unordered list:&lt;/p>&lt;ul>&lt;li style=&quot;text-align: right; &quot;>item 1&lt;/li>&lt;li style=&quot;text-align: right; &quot;>item 2&lt;/li>&lt;li style=&quot;text-align: right; &quot;>item 3&lt;/li>&lt;/ul>&lt;p style=&quot;text-align: right; &quot;>ordered list&lt;/p>&lt;ol>&lt;li style=&quot;text-align: right; &quot;>item 1&lt;/li>&lt;li style=&quot;text-align: right; &quot;>item 2&lt;/li>&lt;li style=&quot;text-align: right; &quot;>item 3&lt;/li>&lt;/ol>&lt;p style=&quot;text-align: right; &quot;>sub&lt;sub>script&lt;/sub> super&lt;sup>script&lt;/sup>&lt;/p>&lt;p style=&quot;text-align: right; &quot;>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em>&lt;/p>&lt;p style=&quot;text-align: right; &quot;>&lt;a href=&quot;https://www.example.com&quot; title=&quot;example.com&quot;>some link text&lt;/a>&lt;/p>&lt;p style=&quot;text-align: right; &quot;>a line followed by a shift return (&amp;lt;br/&amp;gt;) &lt;br>a line followed by a return (end of paragraph)&lt;/p>&lt;p style=&quot;text-align: right; &quot;>another line&lt;/p>&lt;h1 style=&quot;text-align: justify;&quot;>Justified Alignment Test&lt;/h1>&lt;h2 style=&quot;text-align: justify;&quot;>Header h2&lt;/h2>&lt;h3 style=&quot;text-align: justify;&quot;>Header h3&lt;/h3>&lt;h4 style=&quot;text-align: justify;&quot;>Header h4&lt;/h4>&lt;p style=&quot;text-align: justify;&quot;>Text:&lt;/p>&lt;p style=&quot;text-align: justify;&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare felis at ligula suscipit, eu condimentum tortor venenatis. Maecenas laoreet blandit tempor. Praesent fermentum malesuada ante eget condimentum. Nulla feugiat, tortor vel consectetur mollis, neque mauris lacinia nisi, id tristique sapien eros sed neque. Integer nec nunc nec elit condimentum faucibus a sit amet dolor. Aliquam nec metus urna. Donec id urna lacus. Nam luctus efficitur leo, at lobortis eros. Phasellus ut tincidunt orci, vitae lacinia lacus.&lt;/p>&lt;p style=&quot;text-align: justify;&quot;>unordered list:&lt;/p>&lt;ul>&lt;li style=&quot;text-align: justify;&quot;>item 1&lt;/li>&lt;li style=&quot;text-align: justify;&quot;>item 2&lt;/li>&lt;li style=&quot;text-align: justify;&quot;>item 3&lt;/li>&lt;/ul>&lt;p style=&quot;text-align: justify;&quot;>ordered list&lt;/p>&lt;ol>&lt;li style=&quot;text-align: justify;&quot;>item 1&lt;/li>&lt;li style=&quot;text-align: justify;&quot;>item 2&lt;/li>&lt;li style=&quot;text-align: justify;&quot;>item 3&lt;/li>&lt;/ol>&lt;p style=&quot;text-align: justify;&quot;>sub&lt;sub>script&lt;/sub> super&lt;sup>script&lt;/sup>&lt;/p>&lt;p style=&quot;text-align: justify;&quot;>&lt;strong>bold&lt;/strong> &lt;em>italic&lt;/em>&lt;/p>&lt;p style=&quot;text-align: justify;&quot;>&lt;a href=&quot;https://www.example.com&quot; title=&quot;example.com&quot;>some link text&lt;/a>&lt;/p>&lt;p style=&quot;text-align: justify;&quot;>a line followed by a shift return (&amp;lt;br/&amp;gt;) &lt;br>a line followed by a return (end of paragraph)&lt;/p>&lt;p style=&quot;text-align: justify;&quot;>another line&lt;/p>"
+                title="Peregrine blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c9
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c10
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical11>
+            <title12
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Full Height (Features)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical15
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bottompadding="30"
+                buttonsize="large"
+                custombackground="true"
+                fullheight="true"
+                isprimary="true"
+                overlay="true"
+                overlaycolor="#ffffff"
+                overlayopacity="70"
+                showbutton="true"
+                showsubtitle="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Themeclean Flex Blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c13
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical15>
+            <title16
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical - Example (Features)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical19
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"
+                backgroundtype="gradient"
+                bgcolor="#ffffff"
+                bottompadding="30"
+                buttonsize="default"
+                color2="#c0c0c0"
+                fullheight="false"
+                gradient="true"
+                showbutton="true"
+                showsubtitle="true"
+                showtext="true"
+                showtitle="true"
+                subtitle="Molestiae alias et inventore voluptas"
+                text="&lt;p>Eligendi fugit asperiores et. Corrupti voluptatum quasi sit. Adipisci ut voluptatem necessitatibus cumque aspernatur.&lt;/p>"
+                title="Peregrine blocks"
+                toppadding="30">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c17
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="See More"
+                        iconclass=""/>
+                    <c18
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="About Us"
+                        iconclass=""/>
+                </buttons>
+            </teaservertical19>
+            <title20
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Teaser Vertical (Empty)&lt;/h2>"
+                toppadding="25"/>
+            <teaservertical21
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/teaservertical"/>
+        </container22>
+        <pager23
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+    <sample/>
+    <sample-blank/>
+    <sample-mediateaser/>
+    <sample-rte/>
+    <sample-teaserfull/>
+</jcr:root>

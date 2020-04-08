@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="menubuttonssample themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | menubuttonssample">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="menubuttonssample"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="menubuttonssample themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container146
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c2
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c3
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c4
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons5>
+            <title6
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons10
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c7
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c8
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c9
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons10>
+            <title11
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons15
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c12
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c13
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c14
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons15>
+            <title16
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons20
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c17
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c18
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c19
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons20>
+            <title21
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c22
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c23
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c24
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons25>
+            <title26
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons30
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c27
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c28
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c29
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons30>
+            <title31
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons35
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c32
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c33
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c34
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons35>
+            <title36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons40
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c37
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c38
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c39
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons40>
+            <title41
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons45
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c42
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c43
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c44
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons45>
+            <title46
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons50
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c47
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c48
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c49
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons50>
+            <title51
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons55
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c52
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c53
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c54
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons55>
+            <title56
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons60
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c57
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c58
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c59
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons60>
+            <title61
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons65
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c62
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c63
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c64
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons65>
+            <title66
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons70
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c67
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c68
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c69
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons70>
+            <title71
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons75
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c72
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c73
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c74
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons75>
+            <title76
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons80
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c77
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c78
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c79
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons80>
+            <title81
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons85
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c82
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c83
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c84
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons85>
+            <title86
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons90
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c87
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c88
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c89
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons90>
+            <title91
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons95
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c92
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c93
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c94
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons95>
+            <title96
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons100
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c97
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c98
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c99
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons100>
+            <title101
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons105
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c102
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c103
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c104
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons105>
+            <title106
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons110
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c107
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c108
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c109
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons110>
+            <title111
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons115
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c112
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c113
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c114
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons115>
+            <title116
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons120
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c117
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c118
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c119
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons120>
+            <title121
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons125
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c122
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c123
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c124
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons125>
+            <title126
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons130
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c127
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c128
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c129
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons130>
+            <title131
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons135
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c132
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c133
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c134
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons135>
+            <title136
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons140
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c137
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c138
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c139
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons140>
+            <title141
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Menu Buttons Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <menubuttons145
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/menubuttons"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <buttons jcr:primaryType="nt:unstructured">
+                    <c142
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Try It Now"/>
+                    <c143
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="primary"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Click Here!"/>
+                    <c144
+                        jcr:primaryType="nt:unstructured"
+                        buttoncolor="warning"
+                        buttonlink="/content/business_sample/pages"
+                        buttontext="Enter"/>
+                </buttons>
+            </menubuttons145>
+        </container146>
+        <pager147
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:description="footersample-blank themecleanflex component library"
+    jcr:primaryType="per:Page"
+    jcr:title="tf-cl | footersample-blank">
+    <jcr:content
+        jcr:primaryType="per:PageContent"
+        jcr:title="footersample-blank"
+        sling:resourceType="business_sample/components/page"
+        brand="themecleanflex"
+        description="footersample-blank themecleanflex component library"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        template="/content/business_sample/templates"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
+        <clheader
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/header"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bottompadding="10"
+            buttonsize="default"
+            collapsed="false"
+            colorscheme="light"
+            htmlelement="header"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            toppadding="10">
+            <elevation jcr:primaryType="nt:unstructured"/>
+            <links jcr:primaryType="nt:unstructured"/>
+            <buttons jcr:primaryType="nt:unstructured"/>
+        </clheader>
+        <clbreadcrumb
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/breadcrumb"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            level="2">
+            <toppadding jcr:primaryType="nt:unstructured"/>
+            <bottompadding jcr:primaryType="nt:unstructured"/>
+        </clbreadcrumb>
+        <pager0
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <container59
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/container"
+            htmlelement="main">
+            <title1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: color; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer2
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer2>
+            <title3
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: color; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer4
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer4>
+            <title5
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: color; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer6
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer6>
+            <title7
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: color; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer8
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer8>
+            <title9
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: color; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer10
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="color"
+                bgcolor="#ff80c0"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer10>
+            <title11
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: gradient; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer12
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer12>
+            <title13
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: gradient; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer14
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer14>
+            <title15
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: gradient; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer16
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer16>
+            <title17
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: gradient; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer18
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer18>
+            <title19
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: gradient; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer20
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer20>
+            <title21
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: gradient; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer22
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="gradient"
+                bgcolor="#ff8040"
+                bgsize="cover"
+                color2="#0080ff"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer22>
+            <title23
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: image; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer24
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer24>
+            <title25
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: image; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer26
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer26>
+            <title27
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: image; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer28
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer28>
+            <title29
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: image; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer30
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer30>
+            <title31
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: image; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer32
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer32>
+            <title33
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: image; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer34
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="image"
+                bgimage="/content/business_sample/assets/samples/beach-bird-s-eye-view-daytime-1249586.jpg"
+                bgsize="cover"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer34>
+            <title35
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: none; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer36
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer36>
+            <title37
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: none; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer38
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                colorscheme="dark"
+                custombackground="false"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer38>
+            <title39
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: none; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer40
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer40>
+            <title41
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: none; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer42
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                colorscheme="light"
+                custombackground="false"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer42>
+            <title43
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: none; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer44
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                colorscheme=""
+                custombackground="false"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer44>
+            <title45
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: none; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer46
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                colorscheme=""
+                custombackground="false"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer46>
+            <title47
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: video; colorscheme: dark; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer48
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer48>
+            <title49
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: video; colorscheme: dark; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer50
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="dark"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer50>
+            <title51
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: video; colorscheme: light; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer52
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer52>
+            <title53
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: video; colorscheme: light; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer54
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme="light"
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer54>
+            <title55
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: video; colorscheme: none; fullheight: false (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer56
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme=""
+                custombackground="true"
+                fullheight="false">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer56>
+            <title57
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/richtext"
+                backgroundtype="color"
+                bgcolor="#eeeeee"
+                bottompadding="25"
+                custombackground="true"
+                text="&lt;h2>Footer Sample Variation - background: video; colorscheme: none; fullheight: true (.hidden)&lt;/h2>"
+                toppadding="25"/>
+            <footer58
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/footer"
+                backgroundtype="video"
+                bgsize="cover"
+                bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                colorscheme=""
+                custombackground="true"
+                fullheight="true">
+                <coluimns jcr:primaryType="nt:unstructured"/>
+            </footer58>
+        </container59>
+        <pager60
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/pager"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="30"
+            colorscheme="light"
+            custombackground="false"
+            htmlelement="nav"
+            nextlabel="next >"
+            prevlabel="&lt; previous"
+            toppadding="30"/>
+        <clfooter
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/footer"
+            backgroundtype="color"
+            bgcolor="#eeeeee"
+            bottompadding="0"
+            colorscheme="light"
+            copyright="Copyright 2019 Peregrine - All Rights Reserved"
+            htmlelement="footer"
+            logo="/content/business_sample/assets/samples/peregrine-logo.svg"
+            logoalttext="Peregrine CMS Logo"
+            logosize="60"
+            logourl="/content/business_sample/pages/library.html"
+            showlogo="true"
+            toppadding="30">
+            <columns jcr:primaryType="nt:unstructured">
+                <c3
+                    jcr:primaryType="nt:unstructured"
+                    text=""
+                    title=""/>
+                <c4
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>info@headwire.com&lt;br>&lt;/p>"
+                    title="Contact"/>
+                <c5
+                    jcr:primaryType="nt:unstructured"
+                    text="&lt;p>23293 S Pointe Drive, Laguna Hills, CA 92653&lt;/p>"
+                    title="Location"/>
+            </columns>
+            <icons jcr:primaryType="nt:unstructured"/>
+        </clfooter>
+    </jcr:content>
+</jcr:root>
