@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-04-09T06:49:05.790-07:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-04-09T06:49:05.790-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="two columns"
+        sling:resourceType="business_sample/components/page">
+        <n544fa3ba-015e-4950-91c0-b62a4b2be182 jcr:primaryType="nt:unstructured">
+            <nfa8faf16-48c7-4e3f-8b4f-afa6711f5a94
+                jcr:lastModified="{Date}2020-04-09T06:44:47.839-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="business_sample/components/containerblock">
+                <n4859dd63-4ce0-4b08-b650-59a5ef25fa89
+                    jcr:lastModified="{Date}2020-04-09T06:49:00.508-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="business_sample/components/container"
+                    colspan="9"
+                    htmlelement="section"
+                    mobilecolspan="12"
+                    mobilewidth="auto"
+                    tabletcolspan="12"
+                    tabletwidth="auto"
+                    width="custom"/>
+                <nabf442dd-6549-4b84-b25a-4207c3651d7a
+                    jcr:lastModified="{Date}2020-04-09T06:49:05.789-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="business_sample/components/container"
+                    colspan="3"
+                    htmlelement="section"
+                    mobilecolspan="12"
+                    mobilewidth="auto"
+                    tabletcolspan="12"
+                    tabletwidth="auto"
+                    width="custom"/>
+            </nfa8faf16-48c7-4e3f-8b4f-afa6711f5a94>
+        </n544fa3ba-015e-4950-91c0-b62a4b2be182>
+    </jcr:content>
+    <blog/>
+</jcr:root>

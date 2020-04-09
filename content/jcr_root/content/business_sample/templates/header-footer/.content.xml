@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2020-04-07T17:10:32.091-07:00"
+    jcr:lastModified="{Date}2020-04-09T07:38:12.819-07:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2020-04-07T17:10:32.091-07:00"
+        jcr:lastModified="{Date}2020-04-09T07:38:12.819-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="header footer"
         sling:resourceType="business_sample/components/page">
         <n900e7251-5f6c-4714-8931-8a431fbd76f8
-            jcr:lastModified="{Date}2020-04-07T17:04:26.472-07:00"
+            jcr:lastModified="{Date}2020-04-09T06:58:28.555-07:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="business_sample/components/header"
@@ -38,7 +38,52 @@
             overlaycolor="#ffffff"
             overlayopacity="50"
             sticky="true"
-            toppadding="9"/>
+            toppadding="9">
+            <links jcr:primaryType="nt:unstructured">
+                <n1586437613712
+                    jcr:lastModified="{Date}2020-04-09T06:58:28.552-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    link="/content/business_sample/pages/index"
+                    name="n1586437613712"
+                    path="/jcr:content/n900e7251-5f6c-4714-8931-8a431fbd76f8/links/n1586437613712"
+                    text="Home"/>
+                <n1586438052813
+                    jcr:lastModified="{Date}2020-04-09T06:58:28.552-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    link="/content/business_sample/pages/single-service"
+                    name="n1586438052813"
+                    path="/jcr:content/n900e7251-5f6c-4714-8931-8a431fbd76f8/links/n1586438052813"
+                    text="Services"/>
+                <n1586440690324
+                    jcr:lastModified="{Date}2020-04-09T06:58:28.553-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    link="/content/business_sample/pages/blog"
+                    text="Blog"/>
+                <n1586437634278
+                    jcr:lastModified="{Date}2020-04-09T06:58:28.554-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    link="/content/business_sample/pages/about-us"
+                    name="n1586437634278"
+                    path="/jcr:content/n900e7251-5f6c-4714-8931-8a431fbd76f8/links/n1586437634278"
+                    text="About us"/>
+                <n1586437654550
+                    jcr:lastModified="{Date}2020-04-09T06:58:28.554-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    component="nt:unstructured"
+                    link="/content/business_sample/pages/our-team"
+                    name="n1586437654550"
+                    path="/jcr:content/n900e7251-5f6c-4714-8931-8a431fbd76f8/links/n1586437654550"
+                    text="Our Team"/>
+            </links>
+        </n900e7251-5f6c-4714-8931-8a431fbd76f8>
         <nfa7bf881-c8db-40fc-a6fe-d37ad4a44895
             jcr:lastModified="{Date}2020-04-07T17:10:32.091-07:00"
             jcr:lastModifiedBy="admin"
@@ -61,11 +106,43 @@
             overlaycolor="#ffffff"
             overlayopacity="50"
             toppadding="20"/>
+        <n54ab18f7-ab96-4eaf-bdfe-e20c0603a90b
+            jcr:lastModified="{Date}2020-04-09T06:17:48.370-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/spacer"
+            bgcolor="#ffffff"
+            bgsize="cover"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bgxposition="50"
+            bgyposition="50"
+            color2="#c0c0c0"
+            colorscheme=""
+            custombackground="false"
+            height="4"
+            overlaycolor="#ffffff"
+            overlayopacity="50"/>
         <n544fa3ba-015e-4950-91c0-b62a4b2be182
             jcr:lastModified="{Date}2020-04-07T16:11:58.192-07:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="business_sample/components/container"/>
+        <n4ba39147-7755-4cc4-bfbe-26148e964fca
+            jcr:lastModified="{Date}2020-04-09T06:18:00.859-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/spacer"
+            bgcolor="#ffffff"
+            bgsize="cover"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bgxposition="50"
+            bgyposition="50"
+            color2="#c0c0c0"
+            colorscheme=""
+            custombackground="false"
+            height="4"
+            overlaycolor="#ffffff"
+            overlayopacity="50"/>
         <n0838de5f-13a0-459f-9933-de99c426ab98
             jcr:lastModified="{Date}2020-04-07T16:29:49.721-07:00"
             jcr:lastModifiedBy="admin"
@@ -124,6 +201,29 @@
                     title="Contact Info"/>
             </columns>
         </n0838de5f-13a0-459f-9933-de99c426ab98>
+        <n8a0b4844-bd9e-4f14-9f1b-35ed18133e5e
+            jcr:lastModified="{Date}2020-04-09T07:38:12.819-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="business_sample/components/note"
+            bgcolor="#ffffff"
+            bgsize="cover"
+            bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+            bgxposition="50"
+            bgyposition="50"
+            blockwidth="default"
+            bottompadding="30"
+            color2="#c0c0c0"
+            colorscheme=""
+            custombackground="false"
+            fullheight="false"
+            htmlelement="section"
+            notetype="warning"
+            overlaycolor="#ffffff"
+            overlayopacity="50"
+            text="&lt;p>we should add the ability for a set of links in the footer copyright area as well (most web sites have stuff like 'terms and conditions' and 'privacy policy' in that area)&lt;/p>"
+            toppadding="30"/>
     </jcr:content>
     <article/>
+    <two-columns/>
 </jcr:root>

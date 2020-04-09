@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
+    jcr:lastModified="{Date}2020-04-09T06:57:35.932-07:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="per:Page">
+    <jcr:content
+        jcr:lastModified="{Date}2020-04-09T06:57:35.932-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="per:PageContent"
+        jcr:title="blog"
+        sling:resourceType="business_sample/components/page"
+        name="blog"
+        skeletonPagePath=""
+        template="/content/business_sample/templates/header-footer/two-columns/blog"
+        templatePath="/content/business_sample/templates/header-footer/two-columns/blog"
+        title="blog">
+        <n544fa3ba-015e-4950-91c0-b62a4b2be182 jcr:primaryType="nt:unstructured">
+            <nfa8faf16-48c7-4e3f-8b4f-afa6711f5a94 jcr:primaryType="nt:unstructured">
+                <n4859dd63-4ce0-4b08-b650-59a5ef25fa89 jcr:primaryType="nt:unstructured">
+                    <n7f39a9dc-300c-470d-ab6f-5452219940bd
+                        jcr:lastModified="{Date}2020-04-09T06:55:19.707-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="business_sample/components/teaservertical"
+                        alignbuttons="center"
+                        aligncontent="center"
+                        bgcolor="#ffffff"
+                        bgsize="cover"
+                        bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                        bgxposition="50"
+                        bgyposition="50"
+                        blockwidth="default"
+                        buttonsize="default"
+                        color2="#c0c0c0"
+                        colorscheme=""
+                        custombackground="false"
+                        fullheight="false"
+                        htmlelement="section"
+                        imagesrc=""
+                        mediaposition="before"
+                        mediawidth="50"
+                        overlaycolor="#ffffff"
+                        overlayopacity="50"
+                        showsubtitle="true"
+                        showtitle="true"
+                        subtitle="Things on our mind"
+                        textwidth="100"
+                        title="Blog"
+                        videosrc=""/>
+                    <n984bb5d4-f309-46db-991b-fe5fb3ec368c
+                        jcr:lastModified="{Date}2020-04-09T06:55:59.142-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="business_sample/components/pagelist"
+                        bgcolor="#ffffff"
+                        bgsize="cover"
+                        bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                        bgxposition="50"
+                        bgyposition="50"
+                        blockwidth="default"
+                        color2="#c0c0c0"
+                        colorscheme=""
+                        custombackground="false"
+                        excludesitemapexcludes="true"
+                        fullheight="false"
+                        htmlelement="section"
+                        levels="1"
+                        overlaycolor="#ffffff"
+                        overlayopacity="50"
+                        rootpage="/content/business_sample/pages/blog"
+                        rootPageLink="not adaptable"
+                        rootPageTitle="not adaptable"/>
+                    <n5e3db938-65fa-4b75-9f40-d910793d548e
+                        jcr:lastModified="{Date}2020-04-09T06:56:55.316-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="business_sample/components/note"
+                        bgcolor="#ffffff"
+                        bgsize="cover"
+                        bgvideo="https://www.youtube.com/embed/Ju86mknumYM"
+                        bgxposition="50"
+                        bgyposition="50"
+                        blockwidth="default"
+                        bottompadding="30"
+                        color2="#c0c0c0"
+                        colorscheme=""
+                        custombackground="false"
+                        fullheight="false"
+                        htmlelement="section"
+                        notetype="warning"
+                        overlaycolor="#ffffff"
+                        overlayopacity="50"
+                        text="&lt;p>would love to have this list also be nicer (eg pull image, heading, byline, intro from blog post, a limit on how many to display and support for an endless river)&lt;/p>"
+                        toppadding="30"/>
+                </n4859dd63-4ce0-4b08-b650-59a5ef25fa89>
+            </nfa8faf16-48c7-4e3f-8b4f-afa6711f5a94>
+        </n544fa3ba-015e-4950-91c0-b62a4b2be182>
+    </jcr:content>
+    <why-you-should-focus-on-speeding-up-your-website/>
+</jcr:root>
