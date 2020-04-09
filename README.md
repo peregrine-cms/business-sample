@@ -9,6 +9,7 @@ to deploy this business sample website into a running peregrine instance (needs 
 
 git clone https://github.com/peregrine-cms/business-sample
 cd business-sample
+npm install
 npm run deploy
 
 ```
