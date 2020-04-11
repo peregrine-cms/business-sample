@@ -10,10 +10,17 @@
         jcr:title="issues"
         sling:resourceType="business_sample/components/page"
         name="issues"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
         skeletonPagePath=""
         template="/content/business_sample/templates/header-footer"
         templatePath="/content/business_sample/templates/header-footer"
-        title="issues">
+        title="issues"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
         <n544fa3ba-015e-4950-91c0-b62a4b2be182 jcr:primaryType="nt:unstructured">
             <n3288b8d9-2567-4953-92cf-77d60b33944b
                 jcr:lastModified="{Date}2020-04-08T15:15:23.347-07:00"

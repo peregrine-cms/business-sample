@@ -10,10 +10,17 @@
         jcr:title="single service"
         sling:resourceType="business_sample/components/page"
         name="single-service"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
         skeletonPagePath=""
         template="/content/business_sample/templates/header-footer"
         templatePath="/content/business_sample/templates/header-footer"
-        title="Single Service">
+        title="Single Service"
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
         <n544fa3ba-015e-4950-91c0-b62a4b2be182 jcr:primaryType="nt:unstructured">
             <nb9777d3c-ad36-474a-b37d-5c3131073b39
                 jcr:lastModified="{Date}2020-04-08T21:12:07.991-07:00"

@@ -3,6 +3,12 @@
     jcr:description="samples"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="samples">
+    <services-img-1.jpg/>
+    <services-img-2.jpg/>
+    <services-img-3.jpg/>
+    <services-img-4.jpg/>
+    <services-img-5.jpg/>
+    <services-img-6.jpg/>
     <man-1.jpg/>
     <man-2.jpg/>
     <man-3.jpg/>
@@ -44,4 +50,7 @@
     <codelab.png/>
     <earth.png/>
     <hexa.png/>
+    <bus_sample_3.jpg/>
+    <bus_sample_2.jpg/>
+    <bus_sample_1.jpg/>
 </jcr:root>

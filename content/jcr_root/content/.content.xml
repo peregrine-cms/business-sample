@@ -3,14 +3,17 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="sling:OrderedFolder">
     <rep:policy/>
+    <templates/>
+    <sites/>
+    <assets/>
+    <objects/>
     <nodejs/>
-    <pagerendervue/>
+    <pagerenderer/>
     <admin/>
+    <business_sample/>
+    <themecleanflex/>
+    <pagerendervue/>
     <docs/>
     <example/>
     <themeclean/>
-    <themecleanflex/>
-    <sunshine/>
-    <multicolor/>
-    <business_sample/>
 </jcr:root>

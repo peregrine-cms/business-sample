@@ -2,10 +2,9 @@
   /* Font Families */
   /* Web font families can be imported here, or by editing your base page templates siteCSS */
 
-  /* --font-sans: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   /* --font-serif: Georgia, Cambria, "Times New Roman", Times, serif; */
   /* --font-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
-
   /* Font size overrides */
 
   /* --font-size-sm: 1rem; */
@@ -17,4 +16,200 @@
   /* --font-size-4xl: 5rem; */
   /*--font-size-5xl: 3rem;*/
   /*--font-size-6xl: 4rem;*/
+  --font-title: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --text-primary-color: #303036;
+  --text-secondary-color: #63636b;
+  --link-primary-color: #2c7ae7;
+  --border-primary-color: #d4d4e1;
+}
+
+/* global ============================
+====================================== */
+#peregrine-app .theme-dark {
+  --link-primary-color: #2c7ae7;
+  --bg-primary-color: #303036;
+  --figcaption-primary-bg: #00000070;
+}
+#peregrine-app .theme-light {
+  --link-primary-color: #2c7ae7;
+  --bg-primary-color: #f0f4f8;
+  --figcaption-primary-bg: #ffffff70;
+}
+/* header ============================
+====================================== */
+#peregrine-app .business_sample-components-header {
+  padding: .75rem 0 !important;
+}
+#peregrine-app .business_sample-components-header nav > div > a {
+  line-height: 50px;
+}
+#peregrine-app .business_sample-components-header nav > div > a > img {
+  display: inline-block;
+  height: auto !important;
+  max-height: 50px;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+#peregrine-app .business_sample-components-header nav > div > a:after {
+  display: inline-block;
+  content: 'PathSoft';
+  font-family: var(--font-title);
+  color: var(--text-primary-color);
+  font-size: 1.125rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+/* breadcrumbs =======================
+====================================== */
+#peregrine-app .business_sample-components-breadcrumb span a{
+  color: var(--text-secondary-color) !important;
+}
+#peregrine-app .business_sample-components-breadcrumb span.font-bold > span{
+  color: #2c7ae7;
+  font-weight: 400;
+}
+
+/* teaer vertical ====================
+====================================== */
+#peregrine-app .business_sample-components-teaservertical {
+  padding-top: 5rem;
+}
+#peregrine-app .business_sample-components-teaservertical h1{
+  font-family: var(--font-title);
+  line-height: 1.1em;
+  color: var(--text-primary-color);
+}
+#peregrine-app .business_sample-components-teaservertical h2{
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  line-height: 1.1em;
+  color: var(--text-secondary-color);
+}
+
+/* media block =======================
+====================================== */
+#peregrine-app .business_sample-components-mediablock img{
+  border: 1px solid #d4d4e1;
+  background-color: #f0f4f8;
+  border-radius: .625rem;
+  overflow: hidden;
+}
+
+/* simple text =======================
+====================================== */
+#peregrine-app .business_sample-components-simpletext h2 {
+  font-family: var(--font-title);
+  line-height: 1.1em;
+  color: var(--text-primary-color);
+  margin: 2.5rem 0 2rem;
+}
+
+/* rich text =========================
+====================================== */
+#peregrine-app .business_sample-components-richtext p {
+  color: var(--text-primary-color);
+  margin: 0 0 2rem;
+}
+
+/* why choose us cards ===============
+====================================== */
+#peregrine-app .business_sample-components-cards.section-why-choose-us .card {
+  position: relative;
+  padding-left: 5rem;
+}
+#peregrine-app .theme-light.business_sample-components-cards.section-why-choose-us .card > .flex-col, 
+#peregrine-app .theme-dark.business_sample-components-cards.section-why-choose-us .card > .flex-col {
+  background-color: transparent;
+}
+
+#peregrine-app .business_sample-components-cards.section-why-choose-us .card h2{
+  font-size: 1.5rem;
+  line-height: 1.1em;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  min-height: 2.33333333333em;
+  color: var(--text-primary-color);
+}
+#peregrine-app .business_sample-components-cards.section-why-choose-us .card p{
+  color: var(--text-secondary-color);
+  font-size: 1rem;
+}
+#peregrine-app .business_sample-components-cards.section-why-choose-us > div > div > div:after{
+  position: absolute;
+  top: 1.4rem;
+  left: 2.25rem;
+  display: block;
+  height: 1px;
+  width: 2rem;
+  background-color: var(--text-primary-color);
+  content: '';
+}
+
+#peregrine-app .business_sample-components-cards.section-why-choose-us {
+  counter-reset: card;
+}
+
+#peregrine-app .business_sample-components-cards.section-why-choose-us > div > div > div:before{
+  font-size: 1.0625rem;
+  font-family: var(--font-title);
+  font-weight: 700;
+  color: var(--link-primary-color);
+  position: absolute;
+  top: .75rem;
+  left: 0;
+  counter-increment: card;
+  content: "0" counter(card);
+}
+#peregrine-app .business_sample-components-cards.section-why-choose-us > div > div > div:nth-child(n + 10):before {
+  content: counter(card);
+}
+
+/* footer ============================
+====================================== */
+#peregrine-app .business_sample-components-footer {
+  padding: 5rem 0 4rem !important;
+  margin-top: 5rem;
+}
+#peregrine-app .business_sample-components-footer h2 {
+  font-family: var(--font-title);
+}
+#peregrine-app .business_sample-components-footer hr.border-b{
+  border-color: rgba(255,255,255,.2);
+  margin-top: 5rem;
+}
+
+/* carousel ==========================
+====================================== */
+#peregrine-app .business_sample-components-carousel figcaption {
+
+}
+#peregrine-app .business_sample-components-carousel h2 {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+#peregrine-app .business_sample-components-carousel p {
+  color: var(--text-secondary-color);
+  font-size: 1rem;
+  margin: 0 0 2rem;
+}
+#peregrine-app .business_sample-components-carousel .VueCarousel-dot,
+#peregrine-app .business_sample-components-carousel.theme-light .VueCarousel-dot {
+  background-color: #000 !important;
+  transition: transform .25s ease-in-out;
+}
+#peregrine-app .business_sample-components-carousel.theme-dark .VueCarousel-dot {
+  background-color: #fff !important;
+}
+#peregrine-app .business_sample-components-carousel .VueCarousel-dot.VueCarousel-dot--active {
+  background-color: var(--link-primary-color) !important;
+  transform: scale(1.4);
+}
+
+/* our services cards ================
+====================================== */
+#peregrine-app .business_sample-components-cards.section-our-services .card > div{
+  border: 1px solid var(--border-primary-color);
 }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:per="http://www.peregrine-cms.com/jcr/cms/1.0"
-    jcr:lastModified="{Date}2020-04-07T17:08:44.909-07:00"
+    jcr:lastModified="{Date}2020-04-10T19:38:04.247-07:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="per:Page">
     <jcr:content
-        jcr:lastModified="{Date}2020-04-07T17:08:44.909-07:00"
+        jcr:lastModified="{Date}2020-04-10T19:38:04.247-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="about us"
@@ -217,7 +217,7 @@
                 overlayopacity="50"
                 text="Supporting Our Clients"/>
             <n48f9d7ea-b4a4-41e0-989a-0129ca1d0001
-                jcr:lastModified="{Date}2020-04-07T16:40:26.102-07:00"
+                jcr:lastModified="{Date}2020-04-10T19:38:04.247-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="business_sample/components/richtext"
@@ -227,6 +227,7 @@
                 bgxposition="50"
                 bgyposition="50"
                 blockwidth="default"
+                bottompadding="75"
                 color2="#c0c0c0"
                 colorscheme=""
                 custombackground="false"
@@ -240,7 +241,7 @@
                 text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&lt;p>&lt;span style=&quot;background-color: initial;&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/span>&lt;/p>"
                 videosrc=""/>
             <nb97d806f-cd8c-4545-8e16-2f7bca2efae4
-                jcr:lastModified="{Date}2020-04-07T16:43:25.446-07:00"
+                jcr:lastModified="{Date}2020-04-10T19:37:19.629-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="business_sample/components/teaservertical"
@@ -270,10 +271,10 @@
                 text=""
                 textwidth="100"
                 title="Why Choose Us"
-                toppadding="39"
+                toppadding="75"
                 videosrc=""/>
             <ncaa09679-5596-4174-836d-6c6661d53692
-                jcr:lastModified="{Date}2020-04-07T16:49:11.225-07:00"
+                jcr:lastModified="{Date}2020-04-10T19:37:50.829-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="business_sample/components/cards"
@@ -283,8 +284,8 @@
                 bgxposition="50"
                 bgyposition="50"
                 blockwidth="default"
-                bottompadding="40"
-                cardborder="true"
+                bottompadding="75"
+                cardborder="false"
                 cardcolor="#ffffff"
                 cardsperrow="3"
                 cardsperrowmobile="1"
@@ -293,18 +294,20 @@
                 colorscheme="light"
                 custombackground="false"
                 customcardcolor="false"
+                extraclasses="section-why-choose-us"
                 fullheight="false"
                 htmlelement="section"
                 overlaycolor="#ffffff"
                 overlayopacity="50"
                 roundedcorners="none"
                 showbutton="false"
-                showcard="true"
+                showcard="false"
                 showtext="true"
-                showtitle="true">
+                showtitle="true"
+                toppadding="0">
                 <cards jcr:primaryType="nt:unstructured">
                     <n1586303049105
-                        jcr:lastModified="{Date}2020-04-07T16:49:11.219-07:00"
+                        jcr:lastModified="{Date}2020-04-10T19:37:50.825-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         buttonalign=""
@@ -312,13 +315,16 @@
                         buttonlink=""
                         buttonsize=""
                         buttontext=""
+                        component="nt:unstructured"
                         image=""
                         imagealttext=""
                         imagewidth=""
+                        name="n1586303049105"
+                        path="/jcr:content/n544fa3ba-015e-4950-91c0-b62a4b2be182/ncaa09679-5596-4174-836d-6c6661d53692/cards/n1586303049105"
                         text="&lt;p>We use top-notch hardware to develop the most efficient apps for our customers&lt;/p>"
                         title="High Quality Hardware"/>
                     <n1586303142015
-                        jcr:lastModified="{Date}2020-04-07T16:49:11.220-07:00"
+                        jcr:lastModified="{Date}2020-04-10T19:37:50.826-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         buttonalign=""
@@ -326,13 +332,16 @@
                         buttonlink=""
                         buttonsize=""
                         buttontext=""
+                        component="nt:unstructured"
                         image=""
                         imagealttext=""
                         imagewidth=""
+                        name="n1586303142015"
+                        path="/jcr:content/n544fa3ba-015e-4950-91c0-b62a4b2be182/ncaa09679-5596-4174-836d-6c6661d53692/cards/n1586303142015"
                         text="&lt;p>You can rely on our 24/7 tech support that will gladly solve any app issue you may have.&lt;/p>"
                         title="Dedicated 24\\7 Support"/>
                     <n1586303167735
-                        jcr:lastModified="{Date}2020-04-07T16:49:11.221-07:00"
+                        jcr:lastModified="{Date}2020-04-10T19:37:50.827-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         buttonalign=""
@@ -340,13 +349,16 @@
                         buttonlink=""
                         buttonsize=""
                         buttontext=""
+                        component="nt:unstructured"
                         image=""
                         imagealttext=""
                         imagewidth=""
+                        name="n1586303167735"
+                        path="/jcr:content/n544fa3ba-015e-4950-91c0-b62a4b2be182/ncaa09679-5596-4174-836d-6c6661d53692/cards/n1586303167735"
                         text="&lt;p>If you are not satisfied with our apps, we will return your money in the first 30 days.&lt;/p>"
                         title="30-Day Money-back Guarantee"/>
                     <n1586303186287
-                        jcr:lastModified="{Date}2020-04-07T16:49:11.222-07:00"
+                        jcr:lastModified="{Date}2020-04-10T19:37:50.827-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         buttonalign=""
@@ -354,13 +366,16 @@
                         buttonlink=""
                         buttonsize=""
                         buttontext=""
+                        component="nt:unstructured"
                         image=""
                         imagealttext=""
                         imagewidth=""
+                        name="n1586303186287"
+                        path="/jcr:content/n544fa3ba-015e-4950-91c0-b62a4b2be182/ncaa09679-5596-4174-836d-6c6661d53692/cards/n1586303186287"
                         text="&lt;p>This type of approach to our work helps our specialists to quickly develop better apps.&lt;/p>"
                         title=" Agile and Fast Working Style"/>
                     <n1586303205503
-                        jcr:lastModified="{Date}2020-04-07T16:49:11.223-07:00"
+                        jcr:lastModified="{Date}2020-04-10T19:37:50.828-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         buttonalign=""
@@ -368,13 +383,16 @@
                         buttonlink=""
                         buttonsize=""
                         buttontext=""
+                        component="nt:unstructured"
                         image=""
                         imagealttext=""
                         imagewidth=""
+                        name="n1586303205503"
+                        path="/jcr:content/n544fa3ba-015e-4950-91c0-b62a4b2be182/ncaa09679-5596-4174-836d-6c6661d53692/cards/n1586303205503"
                         text="&lt;p>We also develop free apps that can be downloaded online without any payments.&lt;/p>"
                         title="Some Apps are Free"/>
                     <n1586303235303
-                        jcr:lastModified="{Date}2020-04-07T16:49:11.224-07:00"
+                        jcr:lastModified="{Date}2020-04-10T19:37:50.829-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         buttonalign=""
@@ -382,9 +400,12 @@
                         buttonlink=""
                         buttonsize=""
                         buttontext=""
+                        component="nt:unstructured"
                         image=""
                         imagealttext=""
                         imagewidth=""
+                        name="n1586303235303"
+                        path="/jcr:content/n544fa3ba-015e-4950-91c0-b62a4b2be182/ncaa09679-5596-4174-836d-6c6661d53692/cards/n1586303235303"
                         text="&lt;p>All our products have high usability allowing users to easily operate the apps.&lt;/p>"
                         title="High Level of Usability"/>
                 </cards>

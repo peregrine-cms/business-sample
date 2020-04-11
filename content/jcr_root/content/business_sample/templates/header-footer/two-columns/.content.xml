@@ -8,7 +8,14 @@
         jcr:lastModifiedBy="admin"
         jcr:primaryType="per:PageContent"
         jcr:title="two columns"
-        sling:resourceType="business_sample/components/page">
+        sling:resourceType="business_sample/components/page"
+        ogImage=""
+        ogImageAlt=""
+        ogTitle=""
+        ogType="website"
+        ogUrl=""
+        useDescription="{Boolean}true"
+        useTitle="{Boolean}true">
         <n544fa3ba-015e-4950-91c0-b62a4b2be182 jcr:primaryType="nt:unstructured">
             <nfa8faf16-48c7-4e3f-8b4f-afa6711f5a94
                 jcr:lastModified="{Date}2020-04-09T06:44:47.839-07:00"
